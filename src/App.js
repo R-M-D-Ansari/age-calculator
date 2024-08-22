@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import AgeCalculator from './AgeCalculator';
+import logo from './codealphalogo.png'; // Ensure this path is correct for your image file
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} alt="Logo" className="App-logo" />
       </header>
+      <main>
+        <AgeCalculator />
+      </main>
+      <footer className="App-footer">
+        &copy; Rizwana Ansari 2024
+      </footer>
     </div>
   );
 }
