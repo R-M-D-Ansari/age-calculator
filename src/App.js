@@ -13,7 +13,7 @@ function App() {
         <AgeCalculator />
       </main>
       <footer className="App-footer">
-        &copy; Rizwana Ansari 2024
+        &copy; <b>Rizwana Ansari 2024</b>
       </footer>
     </div>
   );

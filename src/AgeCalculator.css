@@ -2,14 +2,15 @@
     text-align: center;
     margin: 20px auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 800px;
+    background: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    color: #282c34;
+    color: rgb(1, 1, 107);
   }
   
   label {
@@ -24,7 +25,7 @@
   }
   
   button {
-    background-color: #61dafb;
+    background-color: #1f73c7;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -38,6 +39,6 @@
   }
   
   button:hover {
-    background-color: darkblue;
+    background-color: rgb(1, 1, 107);
   }
   
